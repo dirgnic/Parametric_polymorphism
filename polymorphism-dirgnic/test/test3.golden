@@ -1,0 +1,5 @@
+=== After Monomorphization ===
+Def "main" [] [] (Let "a" (App (Var "identity_TInt") (IntLit 5)) (Let "b" (App (Var "identity_TBool") (BoolLit False)) (IntLit 0)))
+Def "identity_TInt" [] [("x",TInt)] (Var "x")
+Def "identity_TBool" [] [("x",TBool)] (Var "x")
+Num 0

@@ -1,0 +1,18 @@
+define identity_Int(x) {
+  return(x)
+
+}
+
+define identity_Bool(x) {
+  return(x)
+
+}
+
+define main() {
+  let a = identity_TInt(5)
+  let b = identity_TBool(false)
+  return(0)
+
+}
+
+

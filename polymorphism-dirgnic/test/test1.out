@@ -1,0 +1,11 @@
+define add(x y) {
+  return(x)
+
+}
+
+define main() {
+  return(add_TInt(10)(20))
+
+}
+
+

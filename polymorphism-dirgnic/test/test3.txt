@@ -1,0 +1,9 @@
+def identity[A](x : A) {
+  return x;
+}
+
+def main() {
+  let a = identity[Int](5);
+  let b = identity[Bool](false);
+  return 0;
+}

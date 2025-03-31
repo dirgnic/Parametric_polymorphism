@@ -1,0 +1,4 @@
+=== After Monomorphization ===
+Def "main" [] [] (App (App (Var "add_TInt") (IntLit 10)) (IntLit 20))
+Def "add_TInt" [] [("x",TInt),("y",TInt)] (Var "x")
+Num 10

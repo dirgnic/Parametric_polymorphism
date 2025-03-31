@@ -1,0 +1,7 @@
+def add[A](x : A, y : A) {
+  return x;
+}
+
+def main() {
+  return add[Int](10, 20);
+}

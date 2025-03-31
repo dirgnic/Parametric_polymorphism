@@ -1,0 +1,12 @@
+define choose(cond x y) {
+  if(cond)(then)(x)(else)(y)
+
+}
+
+define main() {
+  let z = choose_TInt(true)(1)(2)
+  return(0)
+
+}
+
+

@@ -1,0 +1,8 @@
+def choose[A](cond : Bool, x : A, y : A) {
+  if cond then x else y;
+}
+
+def main() {
+  let z = choose[Int](true, 1, 2);
+  return 0;
+}

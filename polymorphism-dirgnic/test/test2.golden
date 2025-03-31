@@ -1,0 +1,4 @@
+=== After Monomorphization ===
+Def "main" [] [] (Let "z" (App (App (App (Var "choose_TInt") (BoolLit True)) (IntLit 1)) (IntLit 2)) (IntLit 0))
+Def "choose_TInt" [] [("cond",TBool),("x",TInt),("y",TInt)] (If (Var "cond") (Var "x") (Var "y"))
+Num 0

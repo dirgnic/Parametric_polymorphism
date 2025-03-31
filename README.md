@@ -1,5 +1,3 @@
-Parametric Polymorphism via Monomorphization
-
 This project demonstrates the implementation of **parametric polymorphism** through **monomorphization**. Starting from the language from Homework 06, we added support for generic functions by duplicating them at compile time for each type they're used with.
 
 ---
